@@ -1,0 +1,16 @@
+/* ============= SCROLL UP ============= */
+.scrollup {
+  position: fixed;
+  right: 4.5rem;
+  bottom: -20%;
+  background-color: red;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0.9;
+  z-index: 100;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+/*# sourceMappingURL=scrollup.css.map */

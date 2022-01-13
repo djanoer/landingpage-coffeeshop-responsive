@@ -1,0 +1,44 @@
+.reviews {
+  background: $light-bg;
+
+  .box-container {
+    @include grid(30rem);
+
+    .box {
+      text-align: center;
+      padding: 3rem 2rem;
+      border-radius: 0.5rem;
+
+      &:hover {
+        background: $white;
+        box-shadow: $box-shadow;
+        transform: translateY(-1rem);
+      }
+
+      img {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        margin-bottom: 1.5rem;
+      }
+
+      h3 {
+        @include title-text(2rem);
+      }
+
+      p {
+        @include graph-text(1.6rem);
+        padding: 1rem 0;
+      }
+
+      .stars {
+        margin-top: 1rem;
+
+        i {
+          font-size: 1.7rem;
+          color: $main-color;
+        }
+      }
+    }
+  }
+}

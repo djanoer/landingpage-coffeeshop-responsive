@@ -1,0 +1,60 @@
+.contact {
+  .contact-info-container {
+    @include grid(30rem);
+    margin-bottom: 3rem;
+
+    .box {
+      border: $border;
+      padding: 3rem 2rem;
+      text-align: center;
+
+      &:hover i {
+        background: $main-color;
+        color: $white;
+      }
+
+      i {
+        height: 6rem;
+        width: 6rem;
+        line-height: 6rem;
+        border: $border;
+        color: $main-color;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        @include title-text(2rem);
+        padding: 1rem 0;
+      }
+
+      p {
+        @include graph-text(1.5rem);
+      }
+    }
+  }
+
+  form {
+    h3 {
+      @include title-text(3rem);
+      padding-bottom: 1rem;
+    }
+
+    .box {
+      margin: 0.7rem 0;
+      border: $border;
+      font-size: 1.6rem;
+      width: 100%;
+      padding: 1.2rem 1.4rem;
+
+      &:focus {
+        background: $main-color;
+        color: $white;
+
+        &::placeholder {
+          color: $light-bg;
+        }
+      }
+    }
+  }
+}

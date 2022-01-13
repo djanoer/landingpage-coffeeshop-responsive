@@ -1,0 +1,48 @@
+@use '../config/custom' as *;
+@use '../components/mixins' as *;
+
+.heading {
+  text-align: center;
+  margin-bottom: 4rem;
+  @include title-text(3rem);
+}
+
+.header {
+  z-index: 1000;
+  padding: 4rem 0;
+
+  &.active {
+    padding: 2rem 0;
+    background: $main-color;
+  }
+
+  .logo {
+    font-size: 2.5rem;
+    color: $white;
+    font-weight: bolder;
+  }
+
+  .nav {
+    a {
+      font-size: 2rem;
+      margin-right: 2rem;
+      color: $white;
+
+      &:hover {
+        text-decoration: underline !important;
+        text-underline-offset: 0.5rem;
+      }
+    }
+  }
+
+  .icons div {
+    font-size: 2.5rem;
+    color: $white;
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+
+  #menu-btn {
+    display: none;
+  }
+}

@@ -1,0 +1,52 @@
+.gallery {
+  .box-container {
+    @include grid(30rem);
+
+    .box {
+      overflow: hidden;
+      position: relative;
+      height: 25rem;
+
+      &:hover {
+        box-shadow: $box-shadow;
+        border: $border;
+
+        img {
+          transform: translateY(-100%);
+        }
+
+        .content {
+          transform: translateY(0);
+        }
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $white;
+        text-align: center;
+        padding: 3rem 2rem;
+        height: 100%;
+        width: 100%;
+        transform: translateY(100%);
+        padding-top: 4rem;
+
+        h3 {
+          @include title-text(2rem);
+        }
+
+        p {
+          padding: 1rem 0;
+          @include graph-text(1.5rem);
+        }
+      }
+    }
+  }
+}

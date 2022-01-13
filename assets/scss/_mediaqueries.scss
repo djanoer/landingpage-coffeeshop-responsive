@@ -1,0 +1,70 @@
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+    scroll-padding-top: 8rem;
+  }
+
+  .home h3 {
+    font-size: 4rem;
+  }
+
+  section {
+    padding: 3rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-form form {
+    padding: 3rem 2rem;
+
+    h3 {
+      font-size: 1.7rem;
+    }
+  }
+
+  .header {
+    padding: 4rem 2rem;
+
+    &.active {
+      padding: 2rem;
+    }
+
+    #menu-btn {
+      display: inline-block;
+
+      &.fa-times {
+        transform: rotate(180deg);
+      }
+    }
+
+    .nav {
+      position: absolute;
+      top: 99%;
+      left: 0;
+      right: 0;
+      background: $white;
+      flex-flow: column;
+      padding: 1rem 0;
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+      &.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+
+      a {
+        margin: 1rem 2rem;
+        color: $black;
+      }
+    }
+  }
+
+  .contact .map {
+    height: 25rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}

@@ -1,0 +1,37 @@
+.footer {
+  text-align: center;
+
+  .logo {
+    font-size: 3rem;
+    color: $main-color;
+    font-weight: bolder;
+  }
+
+  .rights {
+    margin: 2rem 0;
+    @include title-text(1.4rem);
+
+    span {
+      text-decoration: underline !important;
+    }
+  }
+
+  .share {
+    margin-top: 3rem;
+
+    a {
+      height: 5rem;
+      width: 5rem;
+      line-height: 5rem;
+      font-size: 2rem;
+      border: $border;
+      color: $main-color;
+      margin: 0 0.3rem;
+
+      &:hover {
+        background: $main-color;
+        color: $white;
+      }
+    }
+  }
+}

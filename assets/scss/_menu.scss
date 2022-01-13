@@ -1,0 +1,33 @@
+.menu {
+  background: $light-bg;
+
+  .box-container {
+    @include grid(30rem);
+
+    .box {
+      text-align: center;
+      padding: 3rem 2rem;
+      border-radius: 0.5rem;
+
+      &:hover {
+        background: $white;
+        box-shadow: $box-shadow;
+        transform: translateY(-1rem);
+      }
+
+      img {
+        height: 15rem;
+        margin-bottom: 2rem;
+      }
+
+      h3 {
+        @include title-text(2rem);
+      }
+
+      p {
+        padding: 1rem 0;
+        @include graph-text(1.5rem);
+      }
+    }
+  }
+}

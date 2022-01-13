@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========= FAVICON ===========-->
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon" />
+
+    <!--====== font awesome cdn link =======-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!--========= bootstrap cdn link ========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css" />
+
+    <!--========= Animate on scroll library (https://cdnjs.com/) ===========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!--======= custom css file link ========-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Google Fonts Poppins-->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" /> -->
+
+    <title>Landing Page Coffee Shop Responsive</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header fixed-top">
+      <div class="container">
+        <div class="row align-items-center">
+          <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo mr-auto">
+            <i class="fas fa-mug-hot"> biji.co</i>
+
+            <nav class="nav">
+              <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+              <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
+              <a data-aos="zoom-in-left" data-aos-delay="600" href="#menu">menu</a>
+              <a data-aos="zoom-in-left" data-aos-delay="750" href="#gallery">gallery</a>
+              <a data-aos="zoom-in-left" data-aos-delay="900" href="#reviews">reviews</a>
+              <a data-aos="zoom-in-left" data-aos-delay="1150" href="#contact">contact</a>
+              <a data-aos="zoom-in-left" data-aos-delay="1300" href="#blogs">blogs</a>
+            </nav>
+
+            <div data-aos="zoom-in-left" data-aos-delay="1450" class="icons">
+              <div id="menu-btn" class="fas fa-bars"></div>
+              <div id="login-btn" class="fas fa-user"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Login Form -->
+    <div class="login-form">
+      <form action="">
+        <div id="close-login-form" class="fas fa-times"></div>
+        <a href="#" class="logo mr-auto"> <i class="fas fa-mug-hot"></i> coffee </a>
+        <h3>let's start a new great day</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box" />
+        <input type="password" name="" placeholder="enter your password" id="" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password?</a>
+        </div>
+        <input type="submit" value="login now" class="link-btn" />
+        <p class="account">don't have an account? <a href="#">create one!</a></p>
+      </form>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row align-items-center text-center text-md-left min-vh-100">
+          <div class="col-md-6">
+            <span data-aos="fade-up" data-aos-delay="650">coffee house</span>
+            <h3 data-aos="fade-up" data-aos-delay="150">start your day with our coffee</h3>
+            <a data-aos="fade-right" data-aos-delay="1150" href="#newsletter" class="link-btn">get started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="assets/images/about-img-1.png" alt="" class="w-100" />
+          </div>
+
+          <div class="col-md-6">
+            <span>Why choose us?</span>
+            <h3 class="title">the best coffee maker in the town</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In quod reiciendis fugiat, cupiditate autem voluptatum, sunt, corporis quas earum pariatur recusandae! Dolore sed, consectetur distinctio nam optio suscipit vitae?
+              Laborum veniam quos praesentium, facilis suscipit odio.
+            </p>
+            <a href="#" class="link-btn">read more</a>
+            <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-coffee"></i>
+                <h3>best coffee</h3>
+              </div>
+              <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>free delivery</h3>
+              </div>
+              <div class="icons">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 services</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+      <h1 class="heading">our menu</h1>
+
+      <div class="container box-container">
+        <div class="box">
+          <img src="assets/images/menu-1.png" alt="" />
+          <h3>coffee bean</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, perspiciatis nemo.</p>
+          <a href="#" class="link-btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/menu-2.png" alt="" />
+          <h3>coffee bean</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, perspiciatis nemo.</p>
+          <a href="#" class="link-btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/menu-3.png" alt="" />
+          <h3>coffee bean</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, perspiciatis nemo.</p>
+          <a href="#" class="link-btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/menu-4.png" alt="" />
+          <h3>coffee bean</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, perspiciatis nemo.</p>
+          <a href="#" class="link-btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/menu-5.png" alt="" />
+          <h3>coffee bean</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, perspiciatis nemo.</p>
+          <a href="#" class="link-btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/menu-6.png" alt="" />
+          <h3>coffee bean</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, perspiciatis nemo.</p>
+          <a href="#" class="link-btn">read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+      <h1 class="heading">our gallery</h1>
+
+      <div class="container box-container">
+        <div class="box">
+          <img src="assets/images/g-img-1.jpg" alt="" />
+          <div class="content">
+            <h3>morning coffee</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, facilis.</p>
+            <a href="#" class="link-btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/g-img-2.jpg" alt="" />
+          <div class="content">
+            <h3>morning coffee</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, facilis.</p>
+            <a href="#" class="link-btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/g-img-3.jpg" alt="" />
+          <div class="content">
+            <h3>morning coffee</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, facilis.</p>
+            <a href="#" class="link-btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/g-img-4.jpg" alt="" />
+          <div class="content">
+            <h3>morning coffee</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, facilis.</p>
+            <a href="#" class="link-btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/g-img-5.jpg" alt="" />
+          <div class="content">
+            <h3>morning coffee</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, facilis.</p>
+            <a href="#" class="link-btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/g-img-6.jpg" alt="" />
+          <div class="content">
+            <h3>morning coffee</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, facilis.</p>
+            <a href="#" class="link-btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+      <h1 class="heading">customers reviews</h1>
+
+      <div class="container box-container">
+        <div class="box">
+          <img src="assets/images/pic-1.png" alt="" />
+          <h3>Dave Id</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quod in debitis quo dolorem quas veniam ipsa rerum! Incidunt!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/pic-2.png" alt="" />
+          <h3>Putri malu</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quod in debitis quo dolorem quas veniam ipsa rerum! Incidunt!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="assets/images/pic-3.png" alt="" />
+          <h3>Bang Azis</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quod in debitis quo dolorem quas veniam ipsa rerum! Incidunt!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h1 class="heading">contact us</h1>
+
+      <div class="container">
+        <div class="contact-info-container">
+          <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>phone</h3>
+            <p>+62 811 641 6444</p>
+            <p>+62 847 454 000</p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>dave_id@mail.com</p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-map"></i>
+            <h3>address</h3>
+            <p>Banyuwangi, Indonesia - 1945</p>
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-5 mb-md-0">
+            <iframe
+              class="map w-100"
+              src="https://maps.google.com/maps?q=dusun%20rampan%20desa,%20Rampan,%20Cantuk,%20Singojuruh,%20Kabupaten%20Banyuwangi,%20Jawa%20Timur%2068464&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+
+          <form action="" class="col-md-6">
+            <h3>get in touch</h3>
+            <input type="text" class="box" placeholder="your name" />
+            <input type="email" class="box" placeholder="your email" />
+            <input type="number" class="box" placeholder="your phone number" />
+            <textarea name="" id="" cols="30" rows="10" class="box" placeholder="message"></textarea>
+            <input type="submit" class="link-btn" value="send message" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our daily posts</h1>
+
+      <div class="container box-container">
+        <div class="box">
+          <div class="image">
+            <img src="assets/images/g-img-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>5 best bean coffee</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat incidunt corporis et repudiandae.</p>
+            <a href="#" class="link-btn">read more</a>
+          </div>
+          <div class="icons">
+            <span>
+              <i class="fas fa-calendar"></i>
+              1 Jan 2022
+            </span>
+            <span>
+              <i class="fas fa-user"></i>
+              by admin
+            </span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="assets/images/g-img-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>drinking coffee every morning</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat incidunt corporis et repudiandae.</p>
+            <a href="#" class="link-btn">read more</a>
+          </div>
+          <div class="icons">
+            <span>
+              <i class="fas fa-calendar"></i>
+              9 Jan 2022
+            </span>
+            <span>
+              <i class="fas fa-user"></i>
+              by admin
+            </span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="assets/images/g-img-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>coffee ijen arabica from banyuwangi</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat incidunt corporis et repudiandae.</p>
+            <a href="#" class="link-btn">read more</a>
+          </div>
+          <div class="icons">
+            <span>
+              <i class="fas fa-calendar"></i>
+              12 Jan 2022
+            </span>
+            <span>
+              <i class="fas fa-user"></i>
+              by admin
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter" id="newsletter">
+      <div class="container">
+        <h3>newsletter</h3>
+        <p>subscribe for latest updates</p>
+        <form action="">
+          <input type="email" name="" class="email" placeholder="enter your email" />
+          <input type="submit" value="subscribe" class="link-btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer container">
+      <a href="#home" class="logo"> <i class="fas fa-mug-hot"></i> biji.co </a>
+
+      <p class="rights">create by <span>dave_id</span> | all rights reserved</p>
+
+      <div class="share">
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-github"></a>
+        <a href="#" class="fab fa-youtube"></a>
+      </div>
+    </section>
+
+    <!--========= SCROLL UP ===========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--========= aos
+Animate on scroll library (https://cdnjs.com/) ===========-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- my custom js -->
+    <script src="assets/js/script.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 800,
+        offset: 150,
+      });
+    </script>
+  </body>
+</html>

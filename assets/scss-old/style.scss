@@ -1,0 +1,10 @@
+// import the config
+@use 'config/base';
+@use 'config/custom';
+
+// import the components
+@use 'components/animation';
+@use 'components/mixins';
+
+// import the section
+@use 'sections/navbar';
